@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    background: linear-gradient(#ffc2d1, #ff9770);
+    color: #ffffff;
+    text-shadow: 0 0 1px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-title {
+    border-bottom:7px solid #FFFFFF;
+}
+
+#jack-img {
+    width: 200px;
+    border: 10px solid #fb6f92;
+    border-radius: 50%;
+}
+
+#jack-img:hover {
+    border: 15px dotted red;
+}
+
+#you {
+    border-bottom: 5px double #FFFFFF;
+    padding: 10px 15px;
+}
+
+#you:hover {
+    background: red;
+    border-radius: 5px;
+}
+
+#date {
+    background: #ff8fab;
+    padding: 5px 8px;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+#hover-sign {
+    margin: 5px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #FFFFFF;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift1:hover {
+    background-image: url("images/gift1.gif")
+}
+
+#gift2:hover {
+    background-image: url("anya.webp")
+}
+
+#gift3:hover {
+    background-image: url("eat.jpg")
+}
+
+#gift4:hover {
+    background-image: url("kiss.jpg")
+}
+
+#gift5:hover {
+    background-image: url("future.gif")
+}
+
+a {
+    color: #ffffff
+}
